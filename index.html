@@ -10,21 +10,34 @@
     <header class="header">
         <div class="container-header">
             <h1 class="titulo-header">Lista de tarefas</h1>
-            <!-- <div class="container-header-vector"> -->
-                <img src="assets/imgs/bell 2.svg" alt="Vetor de um sino branco">
-                <!-- <div class="elipse">
+            <div class="container-header-vector">
+                <div class="bell">
+                    <img src="assets/imgs/bell 2.svg" alt="Vetor de um sino branco">
+                </div>            
+                <div class="elipse">
                     <img src="assets/imgs/Ellipse 1.svg">
-                </div> -->
+                </div>
             </div>
         </div>
     </header>
+    
     <main class="main">
         <form>
             <div class="form">
                 <label for="tarefa" class="titulo-form">Tarefa</label>
-                <div class="container-input">
+                <div class="border-input">
+                    <div class="container-input">
                     <input type="text" class="input" id="tarefa" placeholder="Ex.: comprar leite"/>
-                    <!-- <img src="assets/imgs/check.svg"> -->
+                    <img src="assets/imgs/check.svg" class="input-image">
+                </div>
+                </div>
+
+                <label for="data" class="titulo-form">Data</label>
+                <div class="border-input">
+                    <div class="container-input">
+                    <input type="text" class="input" id="text" placeholder="10/12/2022"/>
+                    <img src="assets/imgs/calendar.svg" class="input-image">
+                </div>
                 </div>
             </div>
         </form>
