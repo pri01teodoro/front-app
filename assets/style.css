@@ -130,24 +130,22 @@ input[type=text]{
     margin-top: 36px;
 }
 
-.tarefas{
+.quadro-tarefas{
     width: 328px;
     height: 62px;
     background: #D9D9D9;
     border-radius: 10px;
+    margin-top: 9px;
 }
 
 .container-texto{
     display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-left: 18px;
+
 }
 
-/* input[type=checkbox]{
-    cursor: pointer;
-    width: 16px;
-    height: 16px;
-    background-color: #D9D9D9;
-    border: 1px solid #000000;
-} */
 
 .check{
     appearance: none;
@@ -156,9 +154,64 @@ input[type=text]{
     background-color: #D9D9D9;
     border: 1px solid #000000;
     cursor: pointer;
-    position: relative;
+    /* position: relative; */
 }
 
 /* .check::before{
     position: absolute;
 } */
+
+.container-texto2{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.texto2{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.vector{
+    margin-right: 15px;
+}
+
+.span{
+    text-decoration-line: line-through;
+}
+
+.container-marcador{
+    display: flex;
+    margin-left: 16px;
+    margin-top: 36px;
+}
+
+.marcador1{
+    width: 174px;
+    height: 32px;
+    background: #FFDB21;
+    border-radius: 10px 0px 0px 10px;
+    padding: 8px;
+
+}
+
+.marcador2{
+    width: 154px;
+    height: 32px;
+    background: #D9D9D9;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.texto-marcador{
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+
+}
+
+
