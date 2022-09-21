@@ -135,15 +135,17 @@ input[type=text]{
     height: 62px;
     background: #D9D9D9;
     border-radius: 10px;
-    margin-top: 9px;
+    /* margin-top: 9px; */
 }
 
 .container-texto{
     display: flex;
     justify-content: space-between;
-    margin-top: 12px;
-    margin-left: 18px;
 
+}
+
+.box{
+    margin-left: 18px;
 }
 
 
@@ -154,6 +156,7 @@ input[type=text]{
     background-color: #D9D9D9;
     border: 1px solid #000000;
     cursor: pointer;
+    margin-top: 12px;
     /* position: relative; */
 }
 
@@ -169,16 +172,20 @@ input[type=text]{
 .texto{
     font-weight: 500;
     font-size: 14px;
+    margin-left: 10px;
 }
 
 .texto2{
+    display: block;
     font-weight: 400;
     font-size: 12px;
     margin-top: 8px;
+    margin-left: 31px;
 }
 
 .vector{
     margin-right: 15px;
+    margin-top: 8px;
 }
 
 .span{
