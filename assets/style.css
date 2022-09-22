@@ -54,7 +54,6 @@
 .main{
     width: 360px;
     height: 793px;
-    background-color:  #F1F1F1;
 }
 
 .form{
@@ -135,23 +134,21 @@ input[type=text]{
     height: 62px;
     background: #D9D9D9;
     border-radius: 10px;
-    /* margin-top: 9px; */
+    margin-bottom: 9px;
 }
 
 .container-texto{
     display: flex;
     justify-content: space-between;
-
-}
-
-.box{
     margin-left: 18px;
+
 }
+
 
 
 .check{
     appearance: none;
-    width: 16px;
+    width: 20px;
     height: 16px;
     background-color: #D9D9D9;
     border: 1px solid #000000;
@@ -167,12 +164,15 @@ input[type=text]{
 .container-texto2{
     display: flex;
     flex-direction: column;
+    width: 162px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 13px;
 }
 
 .texto{
     font-weight: 500;
     font-size: 14px;
-    margin-left: 10px;
 }
 
 .texto2{
@@ -180,7 +180,6 @@ input[type=text]{
     font-weight: 400;
     font-size: 12px;
     margin-top: 8px;
-    margin-left: 31px;
 }
 
 .vector{
@@ -217,7 +216,7 @@ input[type=text]{
 .texto-marcador{
     font-weight: 400;
     font-size: 12px;
-    margin-left: 5px;
+    margin-left: 10px;
 
 }
 
